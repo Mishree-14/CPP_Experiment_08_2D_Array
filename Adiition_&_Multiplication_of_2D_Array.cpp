@@ -1,7 +1,6 @@
 //Mishree Kalaria
 //24070123052
 //Batch: A2
-
 #include<iostream>
 using namespace std;
 
@@ -29,6 +28,25 @@ int main() {
             cin>>a2[i][j];
         }
     }
+    
+    cout<<"---Matrix 1---"<<"\n";
+    for(int i=0;i<r1;i++){
+        for(int j=0; j<c1; j++){
+            
+            cout<<a1[i][j]<<"\t";
+        }
+        cout<<endl;
+    }
+    
+    cout<<"---Matrix 2---"<<"\n";
+    for(int i=0;i<r2;i++){
+        for(int j=0; j<c2; j++){
+            
+            cout<<a2[i][j]<<"\t";
+        }
+        cout<<endl;
+    }
+    
     if(r1==r2 && c1==c2) {
         for(i=0;i<r1;i++) {
             for(j=0;j<c1;j++) {
