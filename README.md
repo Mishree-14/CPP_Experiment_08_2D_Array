@@ -61,7 +61,24 @@ Enter element-(11): 8
 ---MULTIPLICATION OF MATRICES---
 19  22  
 43  50  
+```
 
+### 3. Diagonal Addition
+```
+Enter row for matrix: 2
+Enter row for matrix: 3
+Diagnol addition can't be performed for given dimensions
+```
+```
+Enter row for matrix: 2
+Enter column for matrix: 2
 
-=== Code Execution Successful ===
+---Diagonal Additon---
+Enter element (00): 1
+Enter element (01): 2
+Enter element (10): 3
+Enter element (11): 4
+
+Sum of diagnol-1: 5
+Sum of diagnol-2: 5
 ```
