@@ -1,8 +1,141 @@
+# Experiment 8 – To Study and Implement 2D Arrays in C++
+## Aim:
+To study the concept of two-dimensional arrays in C++ and implement basic operations such as:
+
+## Objectives:
+To understand declaration, initialization, and traversal of 2D arrays in C++.
+
+To perform matrix operations:
+
+    Displaying the entered matrix
+
+    Matrix addition
+
+    Matrix multiplication
+
+    Diagonal sum 
+ 
+    Matrix transpose
+
+To apply nested loops for multi-dimensional data processing.
+
+To develop problem-solving skills involving tabular/matrix-based data.
+
+To relate mathematical concepts of matrices with C++ programming.
+
+## Theory:
+### 1. Definition of a 2D Array
+A two-dimensional array is a collection of elements arranged in rows and columns, stored in contiguous memory locations.
+It can be visualized as a matrix or a table.
+
+Example:
+```
+int matrix[3][3] = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+```
+Here, matrix[0][0] = 1 and matrix[2][1] = 8.
+
+### 2. Memory Representation
+In C++, 2D arrays are stored in row-major order:
+
+All elements of the first row are stored together in memory, followed by the second row, and so on.
+
+### 3. Declaration & Initialization
+Static Declaration:
+```
+int arr[2][3]; // 2 rows, 3 columns
+```
+
+Initialization:
+```
+int arr[2][3] = { {1,2,3}, {4,5,6} };
+```
+
+Partial Initialization:
+```
+int arr[2][3] = { {1}, {4,5} }; // Remaining elements set to 0
+```
+
+### 4. Operations on 2D Arrays
+#### A. Displaying a Matrix
+Input using nested loops (for loop inside another for loop).
+
+Output in matrix form.
+
+#### B. Matrix Addition
+Condition: Dimensions must be equal (m x n).
+
+Formula: C[i][j] = A[i][j] + B[i][j]
+
+#### C. Matrix Multiplication
+Condition: If A is m x n and B is n x p, result will be m x p.
+​
+Requires triple nested loops.
+
+#### D. Diagonal Addition
+Primary diagonal (top-left to bottom-right): Elements where i == j.
+
+Secondary diagonal (top-right to bottom-left): Elements where i + j == n - 1.
+
+#### E. Transpose of a Matrix
+Definition: Interchanging rows and columns.
+
+Used in mathematics, graphics, and image processing.
+
+### 5. Advantages of 2D Arrays
+Organizes data in matrix form.
+
+Useful in image processing, scientific computing, data analysis.
+
+Efficient for mathematical computations.
+
+### 6. Limitations
+Fixed size (static allocation).
+
+Memory wastage if unused elements exist.
+
+Insertion/deletion operations are costly.
+
+## Program Description:
+We implemented four programs in this experiment:
+
+#### Matrix Display:
+
+Used nested loops to store and print matrix elements.
+
+#### Matrix Addition:
+
+Input two matrices of same size and add corresponding elements.
+
+#### Matrix Multiplication:
+
+Used three loops to calculate sum of products for each element in result matrix.
+
+#### Diagonal Addition:
+
+Summed elements where i == j (primary) or i + j == n - 1 (secondary).
+
+#### Transpose of a Matrix:
+
+Interchanged rows and columns.
+
+## Concepts Used:
+Nested Loops
+
+Conditional Statements
+
+Array Traversal
+
+Index-based Access
+
 ## Sample Output
 
 ### 1. Displaying Matrix
 ```
-Enter 9 numbers for 3:3 matrix): 2 3 4 1 5 6 7 8 9
+Enter 9 numbers for 3:3 matrix: 2 3 4 1 5 6 7 8 9
 2	3	4	
 1	5	6	
 7	8	9
