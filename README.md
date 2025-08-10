@@ -1,21 +1,21 @@
 # Experiment 8 – To Study and Implement 2D Arrays in C++
 ## Aim:
-To study the concept of two-dimensional arrays in C++ and implement basic operations such as:
+To study the concept of two-dimensional arrays in C++ and implement basic operations.
 
 ## Objectives:
 To understand declaration, initialization, and traversal of 2D arrays in C++.
 
 To perform matrix operations:
 
-    Displaying the entered matrix
+>Displaying the entered matrix
 
-    Matrix addition
+>Matrix addition
 
-    Matrix multiplication
+>Matrix multiplication
 
-    Diagonal sum 
+>Diagonal sum 
  
-    Matrix transpose
+>Matrix transpose
 
 To apply nested loops for multi-dimensional data processing.
 
@@ -73,6 +73,7 @@ Formula: C[i][j] = A[i][j] + B[i][j]
 #### C. Matrix Multiplication
 Condition: If A is m x n and B is n x p, result will be m x p.
 ​
+
 Requires triple nested loops.
 
 #### D. Diagonal Addition
