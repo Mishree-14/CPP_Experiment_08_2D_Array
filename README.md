@@ -33,5 +33,35 @@ Dimensions of Matrices should be equal to perform Addition of Matrices
 Column of matrix-1 is not equal to row of matrix-2.
 Therefore Multiplication can't be performed.
 ```
+
 ```
+Enter matrix-1 rows: 2
+Enter matrix-1 columns: 2
+Enter matrix-2 rows: 2
+Enter matrix-2 columns: 2
+Enter element-(00): 1
+Enter element-(01): 2
+Enter element-(10): 3
+Enter element-(11): 4
+Enter element-(00): 5
+Enter element-(01): 6
+Enter element-(10): 7
+Enter element-(11): 8
+---Matrix 1---
+1	2	
+3	4	
+---Matrix 2---
+5	6	
+7	8	
+
+---ADDTION OF MATRICES---
+6  8  
+10  12  
+
+---MULTIPLICATION OF MATRICES---
+19  22  
+43  50  
+
+
+=== Code Execution Successful ===
 ```
