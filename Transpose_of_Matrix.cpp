@@ -18,14 +18,21 @@ int main() {
     if (r1==c1){
         for(i=0;i<r1;i++){
             for(j=0;j<c1;j++){
-                cout<<"Enter element "<<i+1<<j+1<<":";
+                cout<<"Enter element "<<i+1<<j+1<<": ";
                 cin>>a1[i][j];
             }
         }
     
         r2=c1;
         c2=r1;
-        
+        cout<<"\n"<<"---Original Matrix---"<<"\n";
+        for(int i=0;i<r1;i++){
+            for(int j=0; j<c1; j++){
+                
+                cout<<a1[i][j]<<"\t";
+            }
+            cout<<endl;
+        }
         int m[r2][c2];
         
         cout<<endl<<"---Transposed Matrix---\n";
