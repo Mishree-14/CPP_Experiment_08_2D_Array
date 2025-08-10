@@ -82,3 +82,34 @@ Enter element (11): 4
 Sum of diagnol-1: 5
 Sum of diagnol-2: 5
 ```
+
+### 4. Transpose of Matrix
+```
+Enter number of rows: 2
+Enter number of columns: 3
+Transpose can't be performed!
+```
+
+```
+Enter number of rows: 3
+Enter number of columns: 3
+Enter element 11: 1
+Enter element 12: 2
+Enter element 13: 3
+Enter element 21: 4
+Enter element 22: 5
+Enter element 23: 6
+Enter element 31: 7
+Enter element 32: 8
+Enter element 33: 9
+
+---Original Matrix---
+1	2	3	
+4	5	6	
+7	8	9	
+
+---Transposed Matrix---
+1  4  7  
+2  5  8  
+3  6  9  
+```
