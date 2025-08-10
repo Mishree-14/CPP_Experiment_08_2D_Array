@@ -10,14 +10,14 @@ int main() {
     
     cout<<"Enter row for matrix: ";
     cin>>r;
-    cout<<"Enter row for matrix: ";
+    cout<<"Enter column for matrix: ";
     cin>>c;
     
     int a1[r][c], add=0, sum=0;
     
     
     if(r==c){
-        cout<<"---Diagonal Additon---";
+        cout<<"\n"<<"---Diagonal Additon---"<<"\n";
         for(i=0;i<r;i++){
             for(j=0;j<c;j++){
                 cout<<"Enter element ("<<i<<j<<"): ";
